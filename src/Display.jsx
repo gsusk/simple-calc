@@ -1,11 +1,11 @@
 
 export default function Display( {calculation, expression} ) {
     return(
-        <div id="display">
+        <div id="displays">
             <p className='displays calc'>
                 {calculation}
             </p>
-            <p className="displays inp">
+            <p id="display" className="displays inp">
                 {expression}
             </p>
         </div>
